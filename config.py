@@ -20,6 +20,15 @@ DAYS_TO_PULL = 1
 # Exolyt API base URL.
 EXOLYT_BASE_URL = "https://api.exolyt.com"
 
+# ─── Google Drive ────────────────────────────────────────────────────────────
+# The ID of the Google Sheet where data will be written.
+# Found in the sheet URL: docs.google.com/spreadsheets/d/THIS_PART/edit
+SPREADSHEET_ID = "1APRohBUSuuKnOF4q1G7soSePR2cViOGji4nLFIkoSbo"
+
+# The ID of the Drive folder the sheet lives in.
+# Found in the folder URL: drive.google.com/drive/folders/THIS_PART
+DRIVE_FOLDER_ID = "1HtZhZfD7FIXNuJ7qfRpkKaPfeUdvRMv2"
+
 # ─── Google Sheets ───────────────────────────────────────────────────────────
 # The name of the tab inside the Google Sheet where data will be written.
 SHEET_TAB_NAME = "mp_social_data"
